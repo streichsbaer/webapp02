@@ -1,6 +1,9 @@
 <html>
 test
-<%jsp
+<%
+
+	Date date = new Date();
+	out.print(date.toString());
 
 %>
 
